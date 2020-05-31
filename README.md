@@ -1,0 +1,2 @@
+# Style_Transfer_Using_Pretrained_VGG19_As_Feature_Extractor_PyTorch
+ Project done during completion of Udacity Deep Learning Nanodegree. Extracted content representation from activation map of the pretrained vgg19 model and style representation by calculating gram matrix from the activation map of the Conv1_1, Conv2_1, Conv3_1, Conv4_1, Conv5_1 layer of  a pretrained VGG19 network and optimizing content and style loss between output image and input style and content image to combine the content of the input content image and styele of the input style image in PyTorch.
